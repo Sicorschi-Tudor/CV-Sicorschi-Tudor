@@ -1,0 +1,106 @@
+body {
+  background-color: #fccb4a;
+  color: #333333;
+  font-size: 1rem;
+}
+
+#cv {
+  box-shadow: 0 4.75rem 9.25rem rgba(0, 0, 0, 0.15);
+}
+.langWrap a{
+  text-decoration: none;
+  color: black;
+ margin-right: 10px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 500;
+ font-size: 20px;
+ background-color: #fbfbfd;
+ border-radius: 50%;
+ padding: 5px;
+ 
+}
+.langWrap .active{
+  background: #fccb4a ;
+}
+
+.aside {
+  background-color: #fafafa;
+}
+
+.author-photo,
+.main-header {
+  height: 18rem; /* 288px */
+}
+
+.author-photo img {
+  max-width: 100%;
+  width: 12.5rem; /* 200px */
+}
+
+.main-header h1 {
+  font-size: 2.625rem; /* 42px */
+  line-height: 3.125rem; /* 50px */
+}
+
+.main-header h2 {
+  font-size: 2rem; /* 32px */
+  line-height: 2.5rem; /* 40px */
+}
+
+.section h2 {
+  font-size: 1.3125rem; /* 21px */
+  line-height: 1.5625rem; /* 25px */
+}
+
+.section h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.section a {
+  color: inherit;
+}
+
+.article-entity {
+  color: #6d7081;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.article-summary ul {
+  list-style-type: "- ";
+  margin: 0;
+  padding-left: 0.625rem; /* 10px */
+}
+
+.section.profile p {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.4;
+  margin-bottom: 0.5rem; /* 8px */
+}
+
+.bullets {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 7.5rem; /* 120px */
+}
+
+.bullets .bullet {
+  border: 2px solid #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 0.875rem; /* 14px */
+  width: 0.875rem; /* 14px */
+}
+
+.bullet.full {
+  background-color: #000;
+}
+.subsection a{
+  text-decoration: none;
+}
